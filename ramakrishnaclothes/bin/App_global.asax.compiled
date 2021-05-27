@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/PGsAround_Website_Version12/global.asax" hash="7d2fe170" filehash="ffffea9dbfcd5ca7" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/PGsAround_Website_Version12/global.asax" />
+    </filedeps>
+</preserve>

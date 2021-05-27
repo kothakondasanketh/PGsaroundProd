@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://localhost/BookPG_Service/crossdomain.xml">
+
+<cross-domain-policy>
+  <allow-http-request-headers-from domain="*" headers="SOAPAction,Content-Type"/>
+</cross-domain-policy>
+
+
+

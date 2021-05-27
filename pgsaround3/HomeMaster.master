@@ -1,0 +1,211 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMaster.master.cs" Inherits="Views_HomeMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<div style="background-color: #009999">
+
+<div style="background-color: #FFFFFF; margin-left: 145px;" class="style1" >
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="Header" runat="server">
+        <style type="text/css">
+           .style1
+        {
+            width: 77%;
+        }
+        </style>
+        <div style="background-color: #808080">
+            <table class="style2">
+                <tr>
+                    <td class="style4">
+                        <asp:Image ID="Image1" runat="server" Height="76px" 
+                            ImageUrl="~/Images/logo.png" Width="87px" ImageAlign="Middle" />
+                    </td>
+                    <td class="style7">
+                        &nbsp;</td>
+                    <td class="style3">
+                        &nbsp;</td>
+                    <td class="style5">
+                        <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="XX-Large" 
+                            Font-Underline="False" ForeColor="#006666" Text="Book PG" 
+                            Font-Names="Arial"></asp:Label>
+                    </td>
+                    <td class="style6">
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <asp:ContentPlaceHolder ID="MenuHeader"  runat="server">
+        <body>
+            <div>
+                <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+    .menu ul
+    {
+        border-bottom: 1px solid gray;
+    }
+ 
+    .menu ul li
+    {
+        border: 1px solid white;
+        background-color: gray;
+        text-decoration: none;
+        padding: 3px;
+        margin: 3px;
+    }
+ 
+    .menu ul li a
+    {
+        color: White;
+    }
+ 
+    .menu ul li a:hover
+    {
+        font-weight:bold;
+    }
+                    .style2
+                    {
+                        width: 100%;
+                    }
+                    .style3
+                    {
+                        width: 169px;
+                    }
+                    .style4
+                    {
+                        width: 128px;
+                    }
+                    .style5
+                    {
+                        width: 141px;
+                    }
+                    .style6
+                    {
+                        width: 139px;
+                    }
+                    .style7
+                    {
+                        width: 104px;
+                    }
+                     .modalBackground 
+{
+    height:100%;
+    background-color:#EBEBEB;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}
+                    #Frame1
+                    {
+                        width: 626px;
+                        height: 207px;
+                        margin-left: 11px;
+                        margin-right: 0px;
+                        margin-top: 0px;
+                    }
+                    .style10
+                    {
+                        width: 849px;
+                    }
+                    .style11
+                    {
+                    }
+                    </style>
+                <div style="background-color: #006666" >
+                    &nbsp;&nbsp;
+                   <%-- <asp:ScriptManager ID="ScriptManager1" runat="server">
+                    </asp:ScriptManager>
+                    <asp:ModalPopupExtender ID="MPE" runat="server"
+    TargetControlID="lnklogin" BackgroundCssClass="modalBackground" DropShadow="true"
+    PopupControlID="Panel1"
+    
+  
+   
+    CancelControlID="Button1" 
+     >
+                    </asp:ModalPopupExtender>
+                    <asp:AnimationExtender ID="AEFadeIn" runat="server" Enabled="True" TargetControlID="lnklogin" >
+                        <Animations>
+                <OnClick>
+                   
+                    <Sequence AnimationTarget="Panel1">
+                       
+                        
+                        <FadeIn Duration="2" MinimumOpacity="0" MaximumOpacity="1" />
+                    </Sequence>
+                </OnClick>
+            </Animations>
+                    </asp:AnimationExtender>--%>
+                   <%-- <asp:Panel ID="Panel1" runat="server" Height="240px" Width="654px" 
+                        BackColor="#669999" style="margin-top: 0px; margin-bottom: 0px">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:LinkButton ID="Button1" runat="server" Text="Close"  />
+                        <iframe runat="server" id="Frame1" height="200" width="626" 
+                            style="background-color: #669999"></iframe>
+                    </asp:Panel>--%>
+                    <table class="style2">
+                        <tr>
+                            <td class="style10">
+                                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="menu">
+                                    <Items>
+                                        <asp:MenuItem Text="Home" NavigateUrl="~/LandingPage.aspx" />
+                                        <asp:MenuItem Text="Search PG" NavigateUrl="~/LandingPage.aspx" />
+                                        <asp:MenuItem Text="About Us" NavigateUrl="~/LandingPage.aspx" />
+                                        <asp:MenuItem Text="Services" NavigateUrl="~/LandingPage.aspx" />
+                                        <asp:MenuItem Text="Contact Us" NavigateUrl="~/LandingPage.aspx" />
+                                    </Items>
+                                </asp:Menu>
+                            </td>
+                            <td class="style11">
+                                <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" Font-Bold="True" 
+                                    Font-Size="Large" ForeColor="White" Font-Underline="True">
+                                    <Items>
+                                        <asp:MenuItem Text="User Register?" NavigateUrl="~/UserRegPage.aspx" />
+                                        <asp:MenuItem Text="Client Register?" NavigateUrl="~/ClientRegPage.aspx" />
+                                        <asp:MenuItem Text="Login" NavigateUrl="~/LoginPage.aspx" />
+                                    </Items>
+                                </asp:Menu>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </body>
+    
+    
+    </asp:ContentPlaceHolder>
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+ <asp:ContentPlaceHolder ID="Footer" runat="server">
+  <div style="background-color: #808080">
+    <asp:Label ID="Label2" runat="server" 
+        Text="Sitemap   | All Rights are Reserved"></asp:Label>
+        </div>
+    </asp:ContentPlaceHolder>
+     </div>
+   
+    </div>
+</html>

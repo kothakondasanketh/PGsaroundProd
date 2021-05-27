@@ -1,0 +1,10 @@
+c:\users\sanketh kumar\documents\visual studio 2010\Projects\BookPG_Service\BookPG_Service\bin\BookPG_Service.dll
+c:\users\sanketh kumar\documents\visual studio 2010\Projects\BookPG_Service\BookPG_Service\bin\BookPG_Service.pdb
+c:\users\sanketh kumar\documents\visual studio 2010\Projects\BookPG_Service\BookPG_Service\obj\Debug\BookPG_Service.dll
+c:\users\sanketh kumar\documents\visual studio 2010\Projects\BookPG_Service\BookPG_Service\obj\Debug\BookPG_Service.pdb
+C:\Users\Sanketh Kumar\documents\visual studio 2010\Projects\BookPG_Service\BookPG_Service\obj\Debug\BookPG_Service.csprojResolveAssemblyReference.cache
+F:\BookPG_Service\BookPG_Service\bin\BookPG_Service.dll
+F:\BookPG_Service\BookPG_Service\bin\BookPG_Service.pdb
+F:\BookPG_Service\BookPG_Service\obj\Debug\BookPG_Service.dll
+F:\BookPG_Service\BookPG_Service\obj\Debug\BookPG_Service.pdb
+F:\BookPG_Service\BookPG_Service\obj\Debug\BookPG_Service.csprojResolveAssemblyReference.cache
